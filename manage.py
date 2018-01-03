@@ -6,8 +6,6 @@ if __name__ == "__main__":
     os.environ.setdefault("DJANGO_SETTINGS_MODULE", "frikadell.settings")
     try:
         from django.core.management import execute_from_command_line
-        reload(sys)  
-        sys.setdefaultencoding('utf8')
     except ImportError:
         # The above import may fail for some other reason. Ensure that the
         # issue is really that Django is missing to avoid masking other
