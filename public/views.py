@@ -27,7 +27,46 @@ def home(request):
 
 
 def locations(request):
-    return render(request, 'public/locations.html', {'page_name': 'locations'})
+    branches = [
+        {
+            'address': _('Ground Floor, ASP Tower, Sheykh Bahae’e St, Tehran, Iran.'),
+            'phone': _('+982188608738'),
+            'hours': _('Open everyday From 11:00 to 23:30'),
+            'services': _('Eatery, Take-Away & Delivery'),
+            'latitude': 35.744650,
+            'longitude': 51.398968,
+            'available': True,
+        },
+        {
+            'address': _('Zaafaranie, Tehran, Iran.'),
+            'hours': _('Coming soon'),
+            'services': _('Take-Away & Delivery'),
+            'available': False,
+        },
+    ]
+
+    q = request.GET.get('q')
+    if q:
+        q = str(q).lower()
+        all_branches = branches
+        branches = []
+        for b in all_branches:
+            if any(q in str(v).lower() for v in b.values()):
+                branches.append(b)
+
+    context = {
+        'page_name': 'locations',
+        'branches': branches,
+        'locations': [(b['latitude'], b['longitude']) for b in branches if 'latitude' in b]
+    }
+    if len(context['locations']) > 0:
+        context['center'] = context['locations'][0]
+        context['zoom'] = 14
+
+    else:
+        context['center'] = (35.6970118, 51.2097355)
+        context['zoom'] = 10
+    return render(request, 'public/locations.html', context)
 
 
 def menu(request):
