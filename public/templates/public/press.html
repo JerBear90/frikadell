@@ -1,0 +1,47 @@
+{% extends "public/base.html" %}
+{% load i18n %}
+{% load static %}
+
+{% block title %}{% trans "press"|title %}{% endblock %}
+
+{% block content %}
+    <main>
+        <section class="press">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="box cover wall-cover s7">
+                        <div class="main-center">
+                            <h2 class="text-shadow">{% trans "press"|upper %}</h2>
+                            <p class="text-shadow">{% trans "page coming soon..."|capfirst %}</p>
+                        </div>
+                    </div>
+                    <div class="box media-contact text-center" id="show">
+                        <div class="download">
+                            <!--<a href="" title="">Download The Menu</a>-->
+                        </div>
+                        <div class="col-xs-12 col-sm-6 col-sm-offset-3">
+                            <div class="info">
+                                <span>{% trans "media contact"|title %}</span>
+                                <div class="link">
+                                    <a href="" title="">press@frikadell.com</a>
+                                </div>
+                            </div>
+                            <ul class="link">
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+{% endblock %}
+
+{% block scripts %}
+    <script type="text/javascript">
+        $("#sd").click(function () {
+            $('html, body').animate({
+                scrollTop: $("#show").offset().top
+            }, 500);
+        });
+    </script>
+{% endblock %}

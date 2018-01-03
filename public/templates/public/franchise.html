@@ -1,0 +1,33 @@
+{% extends "public/base.html" %}
+{% load i18n %}
+{% load static %}
+
+{% block title %}{% trans "frikadell freaks"|title %}{% endblock %}
+
+{% block content %}
+    <main>
+        <section class="defalt-page">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-12 col-sm-6 col-sm-offset-3">
+                        <strong>{% trans "Franchise" %}</strong>
+                        <p>{% blocktrans %}Fan of Frikadell? We are offering franchise opportunities to continue with our success! If you are interested in joining Frikadell family, please complete the form below to get started.{% endblocktrans %}</p>
+                        <form method="post" action="{% url 'public:contact' %}?franchise">
+                            {% csrf_token %}
+                            <div class="row">
+                                <div class="col-xs-12 col-sm-2">{{ franchise_form.title }}</div>
+                                <div class="col-xs-12 col-sm-5">{{ franchise_form.first_name }}</div>
+                                <div class="col-xs-12 col-sm-5">{{ franchise_form.last_name }}</div>
+                            </div>
+                            {{ franchise_form.email }}
+                            {{ franchise_form.telephone }}
+                            {{ franchise_form.location }}
+                            {{ franchise_form.ideas }}
+                            <button class="btn-frik orange-color" type="submit">{% trans "Send" %}</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+{% endblock %}

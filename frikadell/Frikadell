@@ -1,0 +1,19 @@
+Frikadell
+
+like where the second design in going - more for 18 - 24 year old
+want to see more 
+like the opening screen
+like the burger pointing thing
+
+site map
+home page
+our story
+less text on the page - remore drop down / button - let us share with you more
+
+second version is better for the app
+1st version video - possible second video
+Like the join us on first version
+
+
+
+web: python frikadell_website_r1/manage.py collectstatic --noinput; bin/gunicorn_django --workers=4 --bind=0.0.0.0:$PORT frikadell_website_r1/settings.py

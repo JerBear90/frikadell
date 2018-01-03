@@ -1,0 +1,172 @@
+{% load i18n %}
+{% load static %}
+{% trans "frikadell"|title as app_name %}
+{% get_current_language as LANGUAGE_CODE %}
+<!doctype html>
+<html>
+<head>
+    <title>{{ app_name }} | {% block title %}{% endblock %}</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="google-site-verification" content="qt9BKOnXoIOmyWRkt046udfY04diHRfKhcjq3f1UCl8">
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <link rel="stylesheet" type="text/css"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css"
+          href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/assets/owl.theme.default.min.css">
+    <link rel="stylesheet" type="text/css"
+          href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+          integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
+    <link rel="icon" type="image/png" href="{% static 'public/img/favicon.png' %}">
+    <link rel="stylesheet" type="text/css" href="{% static 'public/css/style.css' %}">
+    <meta name="theme-color" content="#101820"/>
+    <meta name="msapplication-navbutton-color" content="#101820">
+    <meta name="apple-mobile-web-app-status-bar-style" content="#101820">
+
+    {% with 'public/css/'|add:LANGUAGE_CODE|add:'/style.css' as style_static %}
+        <link rel="stylesheet" type="text/css" href="{% static style_static %}">
+    {% endwith %}
+</head>
+<body>
+<header>
+    <div class="container-fluid">
+        <div class="pull-left">
+            <a class="menu cd-nav-trigger" href="#cd-nav" title="">{% trans "menu"|title %}<span></span></a>
+            <h1 class="logo"><a href="{% url "public:home" %}" title="">{{ app_name }}</a></h1>
+        </div>
+        <ul class="pull-right" id="quick-navbar">
+            <li{% if page_name == "home" %} class="active"{% endif %}><a
+                    href="{% url "public:home" %}" title="">{% trans "home"|upper %}</a></li>
+            <li{% if page_name == "menu" %} class="active"{% endif %}><a
+                    href="{% url "public:menu" %}" title="">{% trans "menu"|upper %}</a></li>
+            <li{% if page_name == "locations" %} class="active"{% endif %}><a
+                    href="{% url "public:locations" %}" title="">{% trans "locations"|upper %}</a></li>
+            <li{% if page_name == "fans" %} class="active"{% endif %}>
+            <a href="{% url "public:fans" %}" title="">{% trans "Fans"|upper %}</a>
+            </li>                    
+            <li{% if page_name == "contact" %} class="active"{% endif %}>
+            <a href="{% url "public:contact" %}" title="">{% trans "contact us"|upper %}</a>
+            </li>
+        </ul>
+    </div>
+</header>
+{% block content %}{% endblock %}
+<footer id="privacy-copyright">
+    <div id="copyright">&copy; {% now "Y" %} - {{ app_name|upper }}</div>
+    <div class="social"><a
+            href="{% if LANGUAGE_CODE == 'fa' %}https://www.instagram.com/frikadelliran/{% else %}https://www.instagram.com/frikadellgroup/{% endif %}"
+            title="{% trans "instagram"|title %}"><i
+            class="fa fa-instagram"></i></a></div>
+    <div id="privacy-policy"><a
+            href="{% url "public:privacy-policy" %}">{% trans "privacy policy"|upper %}</a>
+    </div>
+</footer>
+<!-- <nav class="cd-nav-container" id="cd-nav">
+    <header>
+        <div class="container-fluid">
+            <div class="pull-left">
+                <a href="#0" class="cd-close-nav">{% trans "close"|title %}</a>
+                <h1 class="logo"><a href="{% url "public:home" %}" title="">{{ app_name }}</a></h1>
+            </div>
+            <div class="language pull-right">
+                <form action="{% url "set_language" %}" method="post" id="lang-select-form">
+                    {% csrf_token %}
+                    <input name="next" type="hidden"
+                           value="{% with "public:"|add:page_name as redirect_to %}{{ redirect_to }}{% endwith %}"/>
+                    <select class="form-control" name="language" onchange="this.form.submit()"
+                            title="{% trans "language"|title %}" class="language-select" id="lang-select">
+                        {% get_current_language as LANGUAGE_CODE %}
+                        {% get_available_languages as LANGUAGES %}
+                        {% get_language_info_list for LANGUAGES as languages %}
+                        {% for language in languages %}
+                            <option value="{{ language.code }}"{% if language.code == LANGUAGE_CODE %}
+                                    selected{% endif %}>
+                                {{ language.name }}
+                            </option>
+                        {% endfor %}
+                    </select>
+                </form>
+            </div>
+        </div>
+    </header>
+    <div class="cd-nav" id="nav-content">
+        <div class="inner-pad">
+            <div class="row">
+                <div class="col-xs-12 col-sm-3" style="margin-right: 130px;">
+                    <ul>
+                        <li><a href="{% url "public:locations" %}" title="">{% trans "locations"|title %}</a></li>
+                    </ul>
+
+                    <ul>
+                        <li>
+                            <a href="{% url "public:fans" %}" title="">{% trans "frikadell freaks"|title %}</a>
+                            <a href="{% url "public:story" %}" title="">{% trans "our story"|title %}</a>
+                            <a href="{% url "public:speak-frikadell" %}"
+                               title="">{% trans "do you speak frikadell?"|title %}</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-xs-12 col-sm-3">
+                    <ul>
+                        <li>
+                            <a href="{% url "public:menu" %}" title="Menu">{% trans "menu"|title %}</a>
+                        </li>
+                    </ul>
+
+                </div>
+                <div class="col-xs-12 col-sm-3">
+                    <ul>
+                        <li>
+                            <a href="{% url "public:contact" %}" title="">{% trans "contact us"|title %}</a>
+                            <a href="{% url "public:privacy-policy" %}" title="">{% trans "privacy policy"|title %}</a>
+                            <a href="{% url "public:franchise" %}" title="">{% trans "franchise"|title %}</a>
+                            <a href="{% url "public:press" %}" title="">{% trans "press"|title %}</a>
+                        </li>
+                    </ul>
+                    <ul>
+                        <li><a href="{% url "public:careers" %}" title="">{% trans "join the team"|title %}</a></li>
+                    </ul>
+                </div>
+                <div class="col-xs-12 col-sm-2 col-sm-offset-1">
+                    <div class="social-menu">
+                        <a href="{% if LANGUAGE_CODE == 'fa' %}https://www.instagram.com/frikadelliran/{% else %}https://www.instagram.com/frikadellgroup/{% endif %}"
+                           title="{% trans "instagram"|title %}"><i
+                                class="fa fa-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div></nav> -->
+<div class="cd-overlay"></div>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.5/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
+        integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+        crossorigin="anonymous"></script>
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-107350513-1"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() {
+        dataLayer.push(arguments)
+    };
+    gtag('js', new Date());
+
+    gtag('config', 'UA-107350513-1');
+</script>
+<script type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/owl.carousel.min.js"></script>
+<script type="text/javascript" src="{% static "public/js/application.js" %}"></script>
+<script type="text/javascript" src="{% static "public/js/3D-bold-navigation.js" %}"></script>
+{% block scripts %}{% endblock %}
+</body>
+</html>

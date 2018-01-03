@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700');
+
+@font-face {
+    font-family: 'ISB';
+    src: url('../../font/fa/IRANSansWeb_Bold.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'ISM';
+    src: url('../../font/fa/IRANSansWeb_Medium.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'ISL';
+    src: url('../../font/fa/IRANSansWeb_Light.woff') format('woff');
+}
+
+* {
+    font-family: 'ISM';
+}
+
+.font-en {
+    font-family: 'Poppins', sans-serif;
+    direction: ltr;
+}
+
+.font-medium, .slogan strong, .banner, .locations .info, .menu-box ul li a, .modal-content p, .modal-content ul li span, .defalt-page p, .press .media-contact p, .press .media-contact .info, #privacy-copyright a, #privacy-copyright, .cbox input[type=checkbox] + label, .default-box ul li, .size-wall-box .box .main-center p, .cd-nav ul li a, .cover p {
+    font-family: 'ISM';
+}
+
+.font-bold, .btn-frik, .slogan h2, .owl-carousel .item h3, .cover h2, .press .media-contact ul li a, .join strong, .size-wall-box .box .main-center strong, .size-wall-box .box .main-center a, .btn-burgertogether, .cd-nav ul li a:first-child {
+    font-family: 'ISB';
+}
+
+body {
+    font-family: 'ISL', sans-serif;
+    font-size: 1.3rem;
+    direction: rtl;
+}
+
+.cd-nav ul li a {
+    text-align: right;
+}
+
+.owl-carousel {
+    direction: ltr;
+}
+
+header ul li {
+    float: right;
+    margin-right: 0px;
+    margin-left: 30px;
+}
+
+#privacy-policy {
+    text-align: left;
+}
+
+.default-box ul li {
+    padding-right: 15px;
+    padding-left: 0px;
+}
+
+.default-box ul li:after {
+    right: 0;
+    left: auto;
+}
+
+@media (min-width: 768px) {
+    #cd-nav .col-sm-1, #cd-nav .col-sm-10, #cd-nav .col-sm-11, #cd-nav .col-sm-12, #cd-nav .col-sm-2, #cd-nav .col-sm-3, #cd-nav .col-sm-4, #cd-nav .col-sm-5, #cd-nav .col-sm-6, #cd-nav .col-sm-7, #cd-nav .col-sm-8, #cd-nav .col-sm-9 {
+        float: right;
+    }
+}
+
+.search button {
+    right: auto;
+    left: 20px;
+}

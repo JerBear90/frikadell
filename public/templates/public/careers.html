@@ -1,0 +1,62 @@
+{% extends "public/base.html" %}
+{% load i18n %}
+{% load static %}
+
+{% block title %}{% trans "join the team"|title %}{% endblock %}
+
+{% block content %}
+    <main>
+            <div class="container-fluid">
+                <div class="row">
+                    <div id="careers-title">
+                        <div class="row">
+                            <div class="col-sm-4">
+                               <img src="{% static "public/img/chef_girl.jpg" %}"> 
+                            </div>
+                            <div class="col-sm-4">
+                               <img src="{% static "public/img/worker_bread.jpg" %}"> 
+                            </div>
+                            <div class="col-sm-4">
+                               <img src="{% static "public/img/worker_guy.jpg" %}"> 
+                            </div>
+                        </div>
+                        <div class="main-center">
+                            <h1 class="text-center">{% trans "careers"|title %}</h1>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        <section class="press">
+            <div class="container mt50">
+                <div class="row">
+                    <div class="box media-contact" id="show">
+                        <div class="col-xs-12 col-sm-6">
+                            <div class="join">
+                                <h2>Join the team</h2>
+                                <p>{% trans "We are a fast-growing company, constantly searching for people like you, who are energetic, courageous and creative. Are you ready to roll up your sleeves? Click to apply and become apart of the team" %}</p>
+                                <a class="secondary-button" href="mailto:hr@frikadell.com?subject=Job Inquiry" title="">{% trans "APPLY NOW" %}</a>
+                            </div>
+                        </div>
+                    
+                        <div class="col-xs-12 col-sm-6">
+                            <div class="join">
+                                <h3>Frikadel Benefits:</h3>
+                                <p>Are you ready to roll up your sleeves?</p>
+                                {% blocktrans %}
+                                <ul>
+                                    <li>• Dental.</li>
+                                    <li>• 401K.</li>
+                                    <li>• Life Insurance.</li>
+                                    <li>• Vacation.</li>
+                                    <li>• Sabbatical Program.</li>
+                                    <li>• Recognition Programs.</li>
+                                </ul>
+                                {% endblocktrans %}
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+{% endblock %}

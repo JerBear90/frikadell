@@ -1,0 +1,49 @@
+{% extends "public/base.html" %}
+{% load i18n %}
+
+{% block title %}{% trans "do you speak frikadell"|title %}{% endblock %}
+
+{% block content %}
+    <main>
+        <section>
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="box cover wall-cover s6">
+                        <div class="main-center">
+                            <h2 class="text-shadow" id="speak-frikadell-title">{% trans "do you speak frikadell?"|upper %}</h2>
+
+                            <a id="sd" type="button" title="">{% trans "scroll down"|title %}<i></i></a>
+                        </div>
+                    </div>
+                    <div class="box default-box" id="show">
+                        <div class="col-xs-12 col-sm-6 col-sm-offset-3">
+                            <h3 class="text-center">{% blocktrans %}It all started as a joke but it became our language:{% endblocktrans %}</h3>
+                            <p class="text-normal" style="text-transform: uppercase">{% blocktrans %}Let’s Burger together – <span
+                                    class="yellow"> ‘I like you. Let’s have a burger together’</span><br><br>
+                                Burger Together Forever – <span class="yellow">‘I love you. Let’s eat burgers together forever’</span><br><br>
+                                We Burger for each other – <span class="yellow"> ‘We care for each other deeply’</span><br><br>
+                                Don’t burger me – <span class="yellow"> ‘Don’t bother me’</span><br><br>{% endblocktrans %}
+                            </p>
+                            <p class="text-normal">
+                                <br><br></p>
+                            <p class="text-normal">{% blocktrans %}Send your Frikadell sentences to us and we’ll
+                                publish you here!{% endblocktrans %}</p>
+                            <br><br>
+                            <a class="btn-burgertogether" href="mailto:burgertogether@frikadell.com" title="">{% trans "SEND" %}</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+{% endblock %}
+
+{% block scripts %}
+    <script type="text/javascript">
+        $("#sd").click(function () {
+            $('html, body').animate({
+                scrollTop: $("#show").offset().top
+            }, 500);
+        });
+    </script>
+{% endblock %}

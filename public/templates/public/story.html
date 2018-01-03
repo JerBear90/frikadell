@@ -1,0 +1,63 @@
+{% extends "public/base.html" %}
+{% load i18n %}
+{% load static %}
+
+{% block title %}{% trans "our story"|title %}{% endblock %}
+
+{% block content %}
+    <main>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="box cover wall-cover s4">
+                    <div class="main-center">
+                        <h2 class="text-shadow">{% trans "our story"|capfirst %}</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <section>
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-6">
+                        <h3> {% blocktrans %} How it began ... {% endblocktrans %} </h3>
+                        <p>{% blocktrans %}We’re burger freaks, and we couldn’t find a good homemade burger ANYWHERE, one with a crunchy bun, our choice of sauces and prepared FAST. And worse, the ordering process was always a pain!<br><br>So, we decided to do it ourselves: we put together International chefs from Italy, Turkey, and other places, got the youngest and most innovative IT developers, put them together with the passion and energy of our entire team, and of course no sleep and a LOT of burger testing, and we did it! Frikadell was born, ready to bring the fast food scene to a new level.{% endblocktrans %}</p>
+                    </div>
+                    <div class="col-sm-6">
+                        <video id="homevideo" width="100%" loop muted autoplay controls preload src="{% static 'public/video/english-video-frikadell.mp4' %}"> 
+                            <source src="{% static 'public/video/english-video-frikadell.mp4' %}" type="video/mp4">
+
+                        <h3 class="text-center">{% blocktrans %}What’s special about Frikadell Burgers?{% endblocktrans %}</h3>
+                        <ul>
+                            {% blocktrans %}
+                                <li>Easy Ordering – Use our App on your phone or with Tablets at our Frikadell
+                                    eateries
+                                </li>
+                                <li>Made to Order - You choose every single ingredient for your burger and we
+                                    craft it
+                                    for
+                                    you!
+                                </li>
+                                <li>Hand-selected Meat - Prepared daily with a selection of spices that make it
+                                    oh-so
+                                    tasty
+                                </li>
+                                <li>Freshly Baked Buns - We even flew the baker in from Paris to get them just
+                                    right.
+                                </li>
+                                <li>Frikadell Signature Sauce - We keep the recipe in a safe, just to be
+                                    careful!
+                                </li>
+                                <li>The Box – 3 layers box designed to keep our burgers impeccable until they
+                                    reach you.
+                                </li>
+                                <li>Frikadell Eateries are specially designed to make you feel good and relax.
+                                </li>{% endblocktrans %}
+                            </ul>
+                        </video>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+{% endblock %}

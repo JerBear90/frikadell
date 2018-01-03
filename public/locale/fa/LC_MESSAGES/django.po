@@ -1,0 +1,950 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-09-24 18:59+0330\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: frikadell/settings.py:106
+msgid "English"
+msgstr "انگلیسی"
+
+#: frikadell/settings.py:107
+msgid "Persian"
+msgstr "فارسی"
+
+#: public/templates/public/base.html:3
+msgid "frikadell"
+msgstr "فریکادل"
+
+#: public/templates/public/base.html:38 public/templates/public/base.html:47
+#: public/templates/public/base.html:110 public/templates/public/menu.html:5
+#: public/templates/public/menu.html:14
+msgid "menu"
+msgstr "منو"
+
+#: public/templates/public/base.html:43 public/templates/public/home.html:5
+msgid "home"
+msgstr "خانه"
+
+#: public/templates/public/base.html:45 public/templates/public/base.html:95
+#: public/templates/public/locations.html:4
+msgid "locations"
+msgstr "شعبه‌ها"
+
+#: public/templates/public/base.html:49 public/templates/public/base.html:118
+#: public/templates/public/contact-us.html:4
+#: public/templates/public/contact-us.html:12
+msgid "contact us"
+msgstr "ارتباط با ما"
+
+#: public/templates/public/base.html:56 public/templates/public/base.html:130
+msgid "instagram"
+msgstr "اینستاگرام"
+
+#: public/templates/public/base.html:59 public/templates/public/base.html:119
+#: public/templates/public/privacy-policy.html:4
+msgid "privacy policy"
+msgstr "حریم خصوصی"
+
+#: public/templates/public/base.html:66
+msgid "close"
+msgstr "بستن"
+
+#: public/templates/public/base.html:75
+msgid "language"
+msgstr "زبان"
+
+#: public/templates/public/base.html:100 public/templates/public/fans.html:5
+#: public/templates/public/fans.html:14
+#: public/templates/public/franchise.html:5
+msgid "frikadell freaks"
+msgstr "دوست داران فریکادل"
+
+#: public/templates/public/base.html:101 public/templates/public/story.html:4
+msgid "our story"
+msgstr "داستان ما"
+
+#: public/templates/public/base.html:103
+msgid "do you speak frikadell?"
+msgstr "صحبت به زبان فریکادل"
+
+#: public/templates/public/base.html:120
+msgid "franchise"
+msgstr "نمایندگی"
+
+#: public/templates/public/base.html:121 public/templates/public/press.html:5
+#: public/templates/public/press.html:14
+msgid "press"
+msgstr "مطبوعات"
+
+#: public/templates/public/base.html:125 public/templates/public/careers.html:4
+msgid "join the team"
+msgstr "به تیم ما بپیوندید"
+
+#: public/templates/public/careers.html:13
+msgid "careers"
+msgstr "موقعیت های شغلی"
+
+#: public/templates/public/careers.html:15
+msgid ""
+"Our chefs work hard to create dishes that honour the beautiful, fresh "
+"ingredients that they source. Our friendly, efficient and knowledgeable team "
+"make our guests feel right at home. Passion, friendliness and hospitality "
+"are what we search for in everyone in the Frikadell team."
+msgstr ""
+"سرآشپزهای ما سخت کار می کنند تا غذاها تازگی خود را حفظ نمایند. تیم یکدست، "
+"کارآمد و با دانش ما، کاری می کند که مشتریان حس بودن در خانه را داشته باشند. "
+"علاقه، دوستی و مهمان نوازی، خصوصیاتی هستند که ما در تک تک اعضای فریکادل به "
+"دنبال آنها هستیم."
+
+#: public/templates/public/careers.html:24
+msgid ""
+"Does this sound like you? We are a fast-growing company, constantly "
+"searching for people like you, who are energetic, courageous and creative. "
+"Are you ready to roll up your sleeves?"
+msgstr ""
+"آیا شما هم این ویژگی ها را دارید؟ شرکت ما به سرعت در حال رشد است و همواره به "
+"دنبال افراد پر انرژی، خلاق و شجاع می گردد. آماده اید کار خود را شروع کنید؟"
+
+#: public/templates/public/careers.html:25
+msgid "Apply now to join us:"
+msgstr "درخواست بدهید تا به ما بپیوندید."
+
+#: public/templates/public/careers.html:26
+msgid "APPLY NOW"
+msgstr "همین حالا اقدام کنید"
+
+#: public/templates/public/contact-us.html:13
+#| msgid ""
+#| "Thank you for reaching out to us! We look forward to getting back to you. "
+#| "In order to direct\n"
+#| "                            you\n"
+#| "                            to the most appropriate person, please select "
+#| "from the dropdown menu below."
+msgid ""
+"Thank you for reaching out to us! We look forward to getting back to you. "
+"In\n"
+"                            order to direct\n"
+"                            you\n"
+"                            to the most appropriate person, please select "
+"from the dropdown menu\n"
+"                            below."
+msgstr ""
+"از شما به خاطر برقراری ارتباط با مجموعه ما تشکر می کنیم  و مشتاقانه پاسخ شما "
+"را خواهیم داد. از منوی زیر، یکی از گزینه ها را انتخاب کنید تا بتوانیم شما را "
+"به مناسب ترین فرد وصل کنیم."
+
+#: public/templates/public/contact-us.html:20
+msgid "Select an option"
+msgstr "یک گزینه را انتخاب کنید"
+
+#: public/templates/public/contact-us.html:21
+msgid "Frikadell Franchise"
+msgstr "نمایندگی فریکادل"
+
+#: public/templates/public/contact-us.html:22
+#: public/templates/public/contact-us.html:52
+msgid "Feedback"
+msgstr "بازخورد"
+
+#: public/templates/public/contact-us.html:23
+msgid "Press"
+msgstr "مطبوعات"
+
+#: public/templates/public/contact-us.html:24
+#: public/templates/public/contact-us.html:69
+msgid "Head Office"
+msgstr "دفتر مرکزی"
+
+#: public/templates/public/contact-us.html:27
+#: public/templates/public/franchise.html:13
+msgid "Franchise"
+msgstr "نمایندگی"
+
+#: public/templates/public/contact-us.html:28
+#| msgid ""
+#| "We will shortly be offering franchise opportunities internationally so "
+#| "you can join the\n"
+#| "                                Frikadell family. If you are interested "
+#| "in a franchise opportunity please complete the\n"
+#| "                                following form."
+msgid "We will shortly be offering franchise opportunities. Join us and be part of the Frikadell family. If you are interested in a franchise opportunity please complete the following form."
+msgstr ""
+"ما به زودی فرصت هایی بین المللی فراهم می سازیم و شما می توانید به خانواده "
+"فریکادل بپیوندید. اگر دوست دارید به ما بپیوندید، لطفا فرم زیر را پر کنید:"
+
+msgid "First name"
+msgstr "نام"
+
+msgid "Last name"
+msgstr "نام خانوادگی"
+
+msgid "Franchise location interest"
+msgstr "محل نمایندگی"
+
+#: public/templates/public/contact-us.html:35
+#: public/templates/public/contact-us.html:56
+#: public/templates/public/franchise.html:17
+msgid "Title"
+msgstr "عنوان"
+
+#: public/templates/public/contact-us.html:37
+#: public/templates/public/contact-us.html:58
+#: public/templates/public/franchise.html:18
+msgid "First Name"
+msgstr "نام"
+
+#: public/templates/public/contact-us.html:39
+#: public/templates/public/contact-us.html:60
+#: public/templates/public/franchise.html:19
+msgid "Last Name"
+msgstr "نام خانوادگی"
+
+#: public/templates/public/contact-us.html:41
+#: public/templates/public/franchise.html:20
+msgid "Company Name"
+msgstr "نام شرکت"
+
+#: public/templates/public/contact-us.html:44
+#: public/templates/public/franchise.html:22
+msgid "Company Website"
+msgstr "آدرس وب سایت"
+
+#: public/templates/public/contact-us.html:45
+#: public/templates/public/franchise.html:23
+msgid "Email"
+msgstr "پست الکترونیکی"
+
+#: public/templates/public/contact-us.html:46
+#: public/templates/public/franchise.html:24
+msgid "Telephone Number"
+msgstr "تلفن"
+
+#: public/templates/public/contact-us.html:47
+#: public/templates/public/franchise.html:25
+msgid "Franchise location Interest"
+msgstr "مکان مورد نظر برای اخذ نمایندگی"
+
+#: public/templates/public/contact-us.html:48
+#: public/templates/public/contact-us.html:65
+#: public/templates/public/franchise.html:26
+msgid "Send"
+msgstr "ارسال"
+
+#: public/templates/public/contact-us.html:62
+msgid "E-mail"
+msgstr "پست الکترونیکی"
+
+#: public/templates/public/contact-us.html:64
+msgid "Comment"
+msgstr "نظر"
+
+#: public/templates/public/contact-us.html:70
+#| msgid "25 Quarry Park Close, Moulton Park, Northampton, NN3 6QB"
+msgid ""
+"25 Quarry Park Close, Moulton Park, Northampton, NN3\n"
+"                                6QB"
+msgstr "25 Quarry Park Close, Moulton Park, Northampton, NN3 6QB"
+
+#: public/templates/public/contact-us.html:71
+msgid "+441604600647"
+msgstr "+441604600647"
+
+#: public/templates/public/fans.html:15
+msgid ""
+"Our passion for great burgers is limitless, and we count on you to\n"
+"                                enrich\n"
+"                                our story. You’ll see below some tools on "
+"how to become a Frikadell Freak!"
+msgstr ""
+"اشتیاق ما برای درست کردن همبرگرهای خوشمزه بی حد و مرز است و ما برای کسب "
+"توانایی بیشتر، روی شما حساب می کنیم. در ادامه گزینه های زیادی آمده که شما می "
+"توانید با استفاده از آنها به جمع هواداران فریکادل بپیوندید."
+
+#: public/templates/public/fans.html:18 public/templates/public/story.html:27
+msgid "Scroll Down"
+msgstr "به پایین بکشید"
+
+#: public/templates/public/fans.html:30
+msgid "SUBMIT PHOTO"
+msgstr "ارسال عکس"
+
+#: public/templates/public/fans.html:31
+msgid "Want to be featured as a Frikadell Freak on Fridays?"
+msgstr ""
+"آیا دوست دارید به عنوان هوادار فریکادل، عکستان در روزهای جمعه نمایش داده شود؟"
+
+#: public/templates/public/fans.html:41 public/templates/public/fans.html:52
+#: public/templates/public/fans.html:64
+msgid "Good to know"
+msgstr "بهتر است بدانید"
+
+#: public/templates/public/fans.html:42
+msgid "There are 10 different herbs and spices in our beef and chicken patty"
+msgstr ""
+"بیش از 10 نوع گیاه و ادویه در گوشت و مرغ ما وجود دارد.بهتر است بدانید 2: نان "
+"های ما قبل از سرو کردن، 20 ثانیه روی گریل قرار می گیرند تا طعم بهتری داشته "
+"باشند."
+
+#: public/templates/public/fans.html:53
+msgid ""
+"Our buns are put on a grill for 20 seconds before serving for better\n"
+"                                                taste"
+msgstr ""
+"نان های ما قبل از سرو کردن، 20 ثانیه روی گریل قرار می گیرند تا طعم بهتری "
+"داشته باشند."
+
+#: public/templates/public/fans.html:65
+msgid ""
+"Choose one of the 1,680 combinations to build your own signature\n"
+"                                                burger."
+msgstr "یکی از 1,680 ترکیب ما را انتخاب کنید و برگر سفارشی خود را بسازید."
+
+#: public/templates/public/franchise.html:14
+msgid ""
+"We will shortly be offering franchise opportunities internationally so you "
+"can join the Frikadell family. Please fill out the following form:"
+msgstr ""
+"ما به زودی فرصت هایی بین المللی فراهم می سازیم و شما می توانید به خانواده "
+"فریکادل بپیوندید. اگر دوست دارید به ما بپیوندید، لطفا فرم زیر را پر کنید:"
+
+#: public/templates/public/home.html:16
+msgid "Tasty Burgers Made to Order"
+msgstr "برگرهای خوشمزه و کاملا سفارشی"
+
+#: public/templates/public/home.html:17
+msgid "LEARN MORE"
+msgstr "اطلاعات بیشتر"
+
+#: public/templates/public/home.html:29
+msgid "Frikadell Freaks"
+msgstr "دوست داران فریکادل"
+
+#: public/templates/public/home.html:34
+msgid "Fast and Hot Delivery in Box"
+msgstr "برای اندروید و آی او اس"
+
+#: public/templates/public/home.html:41
+msgid "Open your own Frikadell"
+msgstr "فریکادل خود را باز کنید"
+
+#: public/templates/public/home.html:47
+msgid "Join the team"
+msgstr "به تیم ما بپیوندید"
+
+#: public/templates/public/home.html:52
+msgid "Download<br>The App!"
+msgstr "دانلود اپلیکیشن"
+
+#: public/templates/public/home.html:54
+msgid ""
+"Available for: iPhone - Android"
+msgstr "برای اندروید و آی او اس"
+
+#: public/templates/public/locations.html:16
+msgid "search for a location"
+msgstr "جستجوی مکان"
+
+#: public/templates/public/locations.html:17
+msgid "submit"
+msgstr "ثبت"
+
+#: public/templates/public/locations.html:44
+#, fuzzy, python-format
+#| msgid ""
+#| "                                                        %(counter)s "
+#| "location\n"
+#| "                                                    "
+#| msgid_plural ""
+#| "                                                        %(counter)s "
+#| "locations"
+msgid "One location"
+msgid_plural "%(count)d locations"
+msgstr[0] "یک مکان"
+msgstr[1] "%(count)d مکان"
+
+#: public/templates/public/menu.html:15
+msgid ""
+"Frikadell is created by our people in line with our values; humble,\n"
+"                                wholesome, honest and direct.<br>Everything "
+"is made to order from scratch – with the\n"
+"                                same\n"
+"                                care as\n"
+"                                home cooking: we grind our own meat, hand "
+"pick the tomatoes, chop the onions and\n"
+"                                craft our sauces."
+msgstr ""
+"فریکادل با کمک همکاران و در راستای ارزش های والایی از جمله، تواضع، سلامت، "
+"صداقت و شفافیت، شکل گرفته است.ما از همان آغاز همانند آشپزی در خانه، همه چیز "
+"را با نهایت دقت انجام می دهیم:ما خود گوشت را چرخ، گوجه ها را دستچین، پیازها "
+"را خرد و سس را درست می کنیم و بیشترین حساسیت را در این کارها به خرج می دهیم."
+
+#: public/templates/public/menu.html:21
+msgid "Scroll Down to View the Menu"
+msgstr "برای دیدن منو به پایین بروید"
+
+#: public/templates/public/menu.html:33
+msgid "Bun"
+msgstr "نان"
+
+#: public/templates/public/menu.html:34
+msgid ""
+"Our freshly baked breads are handmade by talented bakers and finished on the "
+"grill just before the meat is placed onto it. Your choice of:"
+msgstr ""
+"نان های تازه و دست ساز ما، توسط نانواهای حرفه ای پخت می شوند و درست قبل از "
+"قرار گرفتن گوشت، روی گریل قرار می گیرند. شما می توانید یکی از موارد زیر را "
+"انتخاب کنید:"
+
+#: public/templates/public/menu.html:36
+msgid ""
+"<li><a type=\"button\" title=\"\">White Bun</a></li>\n"
+"                                            <li><a type=\"button\" title="
+"\"\">Ciabatta</a></li>\n"
+"                                            <li><a type=\"button\" title="
+"\"\">Whole Grain Bun</a></li>\n"
+"                                            <li><a type=\"button\" title="
+"\"\">Or, for the No-Carb lovers, the Lettuce\n"
+"                                                bun</a>\n"
+"                                            </li>"
+msgstr ""
+"<li><a type=\"button\" title=\"\">نان سفید</a></li>\n"
+"                                            <li><a type=\"button\" title="
+"\"\">نان سیباتا</a></li>\n"
+"                                            <li><a type=\"button\" title="
+"\"\">نان کامل</a></li>\n"
+"                                            <li><a type=\"button\" title="
+"\"\">نان کلم برای مخالفان کربوهیدرات\n"
+"                                                </a>\n"
+"                                            </li>"
+
+#: public/templates/public/menu.html:48
+msgid "Meat"
+msgstr "گوشت"
+
+#: public/templates/public/menu.html:49
+msgid ""
+"Our chefs use the best quality ingredients they can find, come up with the\n"
+"                                            tastiest\n"
+"                                            recipes they can think of and "
+"handcraft the most devastatingly delicious\n"
+"                                            burgers\n"
+"                                            you will ever taste."
+msgstr ""
+"سرآشپزهای ما از بهترین مواد ممکن استفاده نموده، خوشمزه ترین دستور پخت را به "
+"کار می گیرند و با دستان خود، لذیذ ترین همبرگری که تا به حال میل کرده اید را "
+"درست می کنند."
+
+#: public/templates/public/menu.html:55
+msgid ""
+"<li><a type=\"button\" title=\"\" data-toggle=\"modal\" data-target="
+"\"#md1\">Beef\n"
+"                                                Burger</a></li>\n"
+"                                            <li><a type=\"button\" title="
+"\"\">Chicken Burger </a></li>\n"
+"                                            <li><a type=\"button\" title="
+"\"\">Chicken Breast</a></li>"
+msgstr ""
+"<li><a type=\"button\" title=\"\" data-toggle=\"modal\" data-target="
+"\"#md1\">برگر گوشت (بیف برگر)\n"
+"                                                </a></li>\n"
+"                                            <li><a type=\"button\" title="
+"\"\">برگر مرغ (چیکن برگر)</a></li>\n"
+"                                            <li><a type=\"button\" title="
+"\"\">سینه مرغ</a></li>"
+
+#: public/templates/public/menu.html:65
+msgid "Toppings"
+msgstr "مخلفات"
+
+#: public/templates/public/menu.html:66
+msgid ""
+"From the market to our kitchen, all of our toppings are selected with care\n"
+"                                            and\n"
+"                                            prepared to keep their real "
+"taste, ready to go onto your burger."
+msgstr ""
+"تمام مخلفات ما از مرحله تهیه در بازار تا رسیدن به آشپزخانه، با وسواس زیاد "
+"انتخاب و آماده می شوند تا طعم واقعی خود را داشته باشند."
+
+#: public/templates/public/menu.html:70
+msgid "Tomato"
+msgstr "گوجه"
+
+#: public/templates/public/menu.html:71
+msgid "fresh onions"
+msgstr "پیاز تازه"
+
+#: public/templates/public/menu.html:72
+msgid "Lettuce"
+msgstr "کاهو"
+
+#: public/templates/public/menu.html:73
+msgid "pickled jalapenos"
+msgstr "فلفل جالاپینو"
+
+#: public/templates/public/menu.html:74
+msgid "Basil"
+msgstr "ریحان"
+
+#: public/templates/public/menu.html:75
+msgid "Mushrooms"
+msgstr "قارچ"
+
+#: public/templates/public/menu.html:76
+msgid "caramelized onions"
+msgstr "پیاز کاراملی"
+
+#: public/templates/public/menu.html:90
+msgid ""
+"<li><a type=\"button\" title=\"\">Gouda</a></li>\n"
+"                                            <li><a type=\"button\" title="
+"\"\">Cheddar</a></li>\n"
+"                                            <li><a type=\"button\" title="
+"\"\">Parmesan</a></li>\n"
+"                                            <li><a type=\"button\" title="
+"\"\">Blue Cheese</a></li>"
+msgstr ""
+"<li><a type=\"button\" title=\"\">گودا</a></li>\n"
+"                                            <li><a type=\"button\" title="
+"\"\">چدار</a></li>\n"
+"                                            <li><a type=\"button\" title="
+"\"\">پارمزان</a></li>\n"
+"                                            <li><a type=\"button\" title="
+"\"\">بلو چیز</a></li>"
+
+#: public/templates/public/menu.html:101
+msgid ""
+"Crunchy on the outside, fluffy on the inside, spiced up and the perfect "
+"side\n"
+"                                            for\n"
+"                                            your Burger:"
+msgstr ""
+"ترد و کاملا نرم، همراه با ادویه مخصوص؛ گزینه ای عالی در کنار همبرگر شما:"
+
+#: public/templates/public/menu.html:105
+msgid ""
+"<li><a type=\"button\" title=\"\">Potato Wedges</a></li>\n"
+"                                            <li><a type=\"button\" title="
+"\"\">Fries</a></li>"
+msgstr ""
+"<li><a type=\"button\" title=\"\">سیب زمینی سرخ کرده</a></li>\n"
+"                                            <li><a type=\"button\" title="
+"\"\">درشت و معمولی</a></li>"
+
+#: public/templates/public/menu.html:113
+msgid "sauce"
+msgstr "سس"
+
+msgid "cheese"
+msgstr "پنیر"
+
+msgid "fries"
+msgstr "سیب زمینی"
+
+#: public/templates/public/menu.html:114
+msgid ""
+"We use wholesome ingredients bursting with flavour to create sauces that "
+"are\n"
+"                                            simple, but never basic."
+msgstr ""
+"ما مواد کاملا سالم را به کار می گیریم، آنها را سرشار از عطر و طعم نموده و سس "
+"هایی درست می کنیم که در عین سادگی، بسیار خاص و دوست داشتنی هستند."
+
+#: public/templates/public/menu.html:117
+msgid ""
+"<li><a type=\"button\" title=\"\">Frikadell – Our secret recipe (we’ll "
+"never\n"
+"                                                tell!).\n"
+"                                                You’ll be addicted</a></li>\n"
+"                                            <li><a type=\"button\" title="
+"\"\">Homemade Ketchup – Because there is simply\n"
+"                                                nothing\n"
+"                                                better than home made</a></"
+"li>\n"
+"                                            <li><a type=\"button\" title="
+"\"\">Chilli – Bring some more spice to your\n"
+"                                                burger</a>\n"
+"                                            </li>\n"
+"                                            <li><a type=\"button\" title="
+"\"\">Cheese – A cheese burger will never taste the\n"
+"                                                same</a></li>\n"
+"                                            <li><a type=\"button\" title="
+"\"\">Barbecue – We don’t even need to try to sell\n"
+"                                                it</a>\n"
+"                                            </li>"
+msgstr ""
+"<li><a type=\"button\" title=\"\">فریکادل – طرز تهیه آن محرمانه است و هیچگاه "
+"فاش نخواهد شد! قطعا عاشق آن می "
+"شوید.                                                </a></li>\n"
+"                                            <li><a type=\"button\" title="
+"\"\">کچاپ خانگی – هیچ چیز بهتر از سس خانگی "
+"نیست.                                                </a></li>\n"
+"                                            <li><a type=\"button\" title="
+"\"\">چیلی – طعم تند را به برگر شما اصافه می "
+"کند.                                                </a>\n"
+"                                            </li>\n"
+"                                            <li><a type=\"button\" title="
+"\"\">پنیر – چیزبرگری کاملا متفاوت را تجربه خواهید "
+"کرد.                                                </a></li>\n"
+"                                            <li><a type=\"button\" title="
+"\"\">باربیکیو –  همه کیفیت آن را می دانند و آن را سفارش می "
+"دهند.                                                it</a>\n"
+"                                            </li>"
+
+#: public/templates/public/menu.html:141
+msgid "Salad & More"
+msgstr "سالاد و دیگر خوراکی ها"
+
+#: public/templates/public/menu.html:143
+msgid ""
+"<li><a type=\"button\" title=\"\">Chicken Caesar Salad</a></li>\n"
+"                                            <li><a type=\"button\" title="
+"\"\">Meat Balls with tomato sauce</a></li>"
+msgstr ""
+"<li><a type=\"button\" title=\"\">سالاد سزار</a></li>\n"
+"                                            <li><a type=\"button\" title="
+"\"\">گوشت قلقلی (کله گنجشکی) با سس گوجه</a></li>"
+
+#: public/templates/public/menu.html:151
+msgid "Drinks"
+msgstr "نوشیدنی ها"
+
+#: public/templates/public/menu.html:152
+msgid "Coca Cola, Sprite, Fanta, Coca Cola Light, Coca Cola Zero, Apple Juice, Orange Juice, Non-alcoholic Classic Beer & Non-alcoholic Lemon Beer, Still Water and Sparkling Water."
+msgstr "کوکا کولا، اسپرایت، فانتا، کوکا کولا لایت، کوکا کولا زیرو، آب سیب، آب پرتقال، دلستر ساده، دلستر لیمو، آب گازدار و بدون گاز."
+
+#: public/templates/public/press.html:15
+msgid "page comming soon..."
+msgstr "به زودی..."
+
+#: public/templates/public/press.html:24
+msgid "media contact"
+msgstr "ارتباط رسانه‌ای"
+
+#: public/templates/public/privacy-policy.html:10
+msgid ""
+"<h5>We respect your Privacy</h5>\n"
+"                <p>At Frikadell, the protection of your privacy in the "
+"processing of your personal data is an important\n"
+"                    concern to which we pay special attention during our "
+"business processes. Personal data collected\n"
+"                    during\n"
+"                    visits to our website are processed by us confidentially "
+"and in accordance with the law. Data\n"
+"                    protection\n"
+"                    and Information security are part of our company policy. "
+"Our website may include links to other\n"
+"                    websites\n"
+"                    which are not covered by this privacy statement.</p>\n"
+"                <h5>Collection and Processing of Personal Data</h5>\n"
+"                <p>When you visit our website our web analytics software "
+"automatically records the name of your internet\n"
+"                    service provider, the website from which you visit us, "
+"the pages you actually visit and the date and\n"
+"                    length of your visit. Our website may use cookies and "
+"active components (e.g. JavaScript) to follow\n"
+"                    the\n"
+"                    preferences of our visitors and optimize our website "
+"accordingly. You can reset your browser either\n"
+"                    to\n"
+"                    notify you when you receive a cookie, or to refuse to "
+"accept cookies. Please note that certain areas\n"
+"                    of\n"
+"                    most sites may not function properly if you reject a "
+"cookie. Additional personal data is only stored\n"
+"                    if\n"
+"                    volunteered by you, for example in context of a "
+"registration, a survey, a contest or in execution of\n"
+"                    a\n"
+"                    contract.</p>\n"
+"                <h5>Use and Disclosure of Personal Data and Purpose "
+"Specification</h5>\n"
+"                <p>We may use your personal data for the sole purpose of "
+"technical administration of the website,\n"
+"                    customer\n"
+"                    administration, surveys and marketing, only to the "
+"extent necessary in each specific case. Your\n"
+"                    personal\n"
+"                    data will not be disclosed to third parties outside "
+"Frikadell without your consent.</p>\n"
+"                <h5>Security</h5>\n"
+"                <p>We use security measures in order to protect the data we "
+"have under our control against manipulation,\n"
+"                    loss, destruction, access by unauthorized persons or "
+"against unauthorized disclosure. Our security\n"
+"                    procedures are continually enhanced as new technology "
+"becomes available.</p>\n"
+"                <h5>Freedom of choice</h5>\n"
+"                <p>We would like to use your data to inform you about our "
+"news, promotions, services and request your\n"
+"                    opinion, where applicable. Naturally your participation "
+"in such campaigns is voluntary. Should you\n"
+"                    not\n"
+"                    consent, you can inform us at any time, so that we can "
+"prohibit the use of your data accordingly.\n"
+"                    For\n"
+"                    further information we refer you to the local website-"
+"services.</p>\n"
+"                <h5>Contact</h5>\n"
+"                <p>For information, helpful suggestions and complaints "
+"regarding the processing of your personal data\n"
+"                    you\n"
+"                    can refer to info@frikadell.com. We strive to maintain "
+"data that is up-to-date and accurate. Should\n"
+"                    there be data relating to you that is incorrect we will "
+"correct that information at your\n"
+"                    request.</p>"
+msgstr ""
+"<h5>ما به حریم شما احترام می گذاریم</h5>\n"
+"                <p>حفاظت از حریم و داده های شخصی شما، یکی از نگرانی های مهم "
+"ما به شمار می رود و ما توجه ویژه ای به این مسئله داریم. داده های شخصی که در "
+"جریان بازدید از وب سایت ما جمع آوری می شوند، به صورت محرمانه و کاملا مطابق "
+"با قانون، پردازش می گردند. حفاظت از داده ها و امنیت اطلاعات، بخشی از سیاست "
+"شرکت ما است. ممکن است در وب سایت ما لینک هایی به دیگر صفحات اینترنتی وجود "
+"داشته باشد؛ آن ها شامل این سیاست نمی شوند.</p>\n"
+"                <h5>جمع آوری و پردازش اطلاعات شخصی</h5>\n"
+"                <p>هنگامی که از سایت بازدید می کنید، نرم افزار تحلیل وب ما "
+"به صورت خودکار نام سرویس دهنده اینترنت شما، نام وبسایتی که ما را ازطریق آن "
+"می بینید، صفحاتی که از آن بازدید می کنید و تاریخ و مدت زمانی که در سایت می "
+"گذرانید را ذخیره می کند.  وبسایت ما از کوکی ها و اجزای فعال مانند جاوا "
+"اسکریپت استفاده می کند تا کاربران تجربه بهتری داشته باشند و سایت ما حالتی "
+"بهینه داشته باشد. شما می توانید مرورگر خود را دوباره راه اندازی کنید تا "
+"بتوانید از دریافت کوکی ها آگاه گردید و در صورت لزوم آن را رد نمایید. در نظر "
+"داشته باشید که رد کردن کوکی ها می تواند به عدم کارکرد درست بخش های مشخصی از "
+"یک وب سایت منجر شود. اطلاعات شخصی اضافی در صورت داوطلب بودن شما ذخیره می "
+"شوند. شما می توانید در بخش هایی مانند عضویت، نظر سنجی، مسابقه یا یک قرارداد، "
+"این اطلاعات را در اختیار ما قرار دهید.</p>\n"
+"                <h5>بهره گیری و افشای اطلاعات شخصی و تعیین هدف</h5>\n"
+"                <p>ما از اطلاعات شخصی شما برای مدیریت فنی وب سایت، مدیریت "
+"مشتریان، نظرسنجی ها و بازاریابی، به میزان مورد نیاز و برای موارد خاص استفاده "
+"می کنیم. اطلاعات بدون رضایت شما در اختیار دیگر اشخاص خارج از فریکادل قرار "
+"نخواهند گرفت.</p>\n"
+"                <h5>امنیت</h5>\n"
+"                <p>ما از پارامترهای مختلف امنیتی استفاده می کنیم تا از "
+"دستکاری، از بین رفتن، آسیب، دسترسی افراد غیر مجاز و افشای غیر قانونی داده "
+"های که در اختیار داریم، جلوگیری نماییم. روش های امنیتی ما با آخرین فناوری "
+"های در دسترس، تقویت شده اند.</p>\n"
+"                <h5>حق انتخاب آزادانه</h5>\n"
+"                <p>ما تمایل داریم تا با استفاده از اطلاعات در دسترس، شما را "
+"از اخبار، خدمات و تبلیغات، مطلع سازیم، نظراتتان را جویا شویم و در صورت "
+"کاربردی بودن، از آنها استفاده کنیم. شرکت شما در چنین کمپین هایی کاملا "
+"داوطلبانه است و اگر تمایلی به این کار نداشته باشید، می توانید این موضوع را "
+"در هر زمانی اطلاع دهید تا ما استفاده از داده های شما را ممنوع سازیم. برای "
+"اطلاعات بیشتر می توانید به قسمت های مختلف وب سایت مراجعه کنید.</p>\n"
+"                <h5>برقراری ارتباط</h5>\n"
+"                <p>برای کسب اطلاعات، پیشنهادهای سازنده و یا شکایت در مورد "
+"پردازش داده های شخصی شما، می توانید با ایمیل info@frikadell.com در ارتباط "
+"باشید. ما تلاش می کنیم که اطلاعات، به روز و دقیق باشند. ممکن است اطلاعات "
+"نادرستی درباره شما در وبسایت وجود داشته باشد؛ ما آنها را بنا به خواسته شما "
+"اصلاح می کنیم.</p>"
+
+#: public/templates/public/speak-frikadell.html:4
+#: public/templates/public/speak-frikadell.html:13
+msgid "do you speak frikadell"
+msgstr "آیا شما فریکادلی صحبت می کنید؟"
+
+#: public/templates/public/speak-frikadell.html:15
+msgid "scroll down"
+msgstr "به پایین بکشید"
+
+#: public/templates/public/speak-frikadell.html:20
+msgid "It all started as a joke but it became our language:"
+msgstr "زبان ما در ابتدا جنبه سرگرمی داشت اما کم کم به زبان ما تبدیل شد:"
+
+#: public/templates/public/speak-frikadell.html:21
+msgid ""
+"Let’s Burger together – <span\n"
+"                                    class=\"yellow\"> ‘I like you. Let’s "
+"have a burger together’</span><br><br>\n"
+"                                Burger Together Forever – <span class="
+"\"yellow\">‘I love you. Let’s eat burgers together forever’</span><br><br>\n"
+"                                We Burger for each other – <span class="
+"\"yellow\">We care for each other deeply</span><br><br>\n"
+"                                Don’t burger me – <span class=\"yellow"
+"\">Don’t bother me</span><br><br>"
+msgstr ""
+"بیا برگر بخوریم – <span\n"
+"                                    class=\"yellow\"> من از تو خوشم می آید؛ "
+"دوست دارم با هم همبرگر بخوریم.</span><br><br>\n"
+"                                برگر در کنار هم برای همیشه – <span class="
+"\"yellow\">من عاشقت هستم و دوست دارم تا ابد با هم برگر بخوریم.</"
+"span><br><br>\n"
+"                                ما به خاطر هم برگر می خوریم – <span class="
+"\"yellow\">ما خیلی مراقب هم هستیم.</span><br><br>\n"
+"                                من رو برگر نکن – <span class=\"yellow\">من "
+"را اذیت نکن.</span><br><br>"
+
+#: public/templates/public/speak-frikadell.html:30
+msgid ""
+"Send your Frikadell sentences to us and we’ll\n"
+"                                publish you here!"
+msgstr "جملات فریکادلی خود را برای ما بفرستید تا در وبسایت ما منتشر شوند!"
+
+#: public/templates/public/speak-frikadell.html:33
+msgid "SEND"
+msgstr "ارسال"
+
+#: public/templates/public/story.html:14
+msgid ""
+"Let us share\n"
+"                                with you how it began ... <br><br>We’re "
+"burger freaks, and we couldn’t find a good\n"
+"                                homemade\n"
+"                                burger ANYWHERE, one with a crunchy bun, our "
+"choice of sauces and prepared FAST. And\n"
+"                                worse,\n"
+"                                the ordering process was always a pain!"
+"<br><br>So, we decided to do it ourselves: we put\n"
+"                                together International chefs from Italy, "
+"Turkey, and other places, got the youngest and\n"
+"                                most\n"
+"                                innovative IT developers, put them together "
+"with the passion and energy of our entire\n"
+"                                team,\n"
+"                                and of course no sleep and a LOT of burger "
+"testing, and we did it! Frikadell was born,\n"
+"                                ready\n"
+"                                to bring the fast food scene to a new level."
+msgstr ""
+"بگذارید داستان شروعمان را با شما در میان بگذاریم...<br><br> ما دوست داران "
+"همبرگر هستیم و نتوانستیم در هیچ کجا، همبرگر خانگی خوب و خوشمزه ای پیدا کنیم؛ "
+"برگری که نانی ترد و سسی سفارشی داشته باشد و سریع آماده شود. پروسه سفارش دادن "
+"نیز همیشه دردناک بود.بنابراین تصمیم گرفتیم خودمان دست به کار شویم: ما "
+"آشپزهای بین المللی از نقاط مختلف دنیا مانند ایتالیا و ترکیه و خلاق ترین و "
+"جوان ترین توسعه دهندگان آی تی را گرد هم آوردیم، اشتیاق و انرژی کل تیم را به "
+"آن ها اضافه کردیم، بی خوابی کشیدیم، برگرهای زیادی را تست کردیم و سرانجام "
+"موفق شدیم. به این ترتیب فریکادل شکل گرفت و آماده است فست فود را به سطح جدیدی "
+"ببرد."
+
+#: public/templates/public/story.html:32
+msgid "What’s special about Frikadell Burgers?"
+msgstr "چه چیزی برگرهای فریکادل را خاص می کند؟"
+
+#: public/templates/public/story.html:34
+msgid ""
+"<li>Easy Ordering – Use our App on your phone or with Tablets at our "
+"Frikadell\n"
+"                                    eateries\n"
+"                                </li>\n"
+"                                <li>Made to Order - You choose every single "
+"ingredient for your burger and we craft it\n"
+"                                    for\n"
+"                                    you!\n"
+"                                </li>\n"
+"                                <li>Hand-selected Meat - Prepared daily with "
+"a selection of spices that make it oh-so\n"
+"                                    tasty\n"
+"                                </li>\n"
+"                                <li>Freshly Baked Buns - We even flew the "
+"baker in from Paris to get them just right.\n"
+"                                </li>\n"
+"                                <li>Frikadell Signature Sauce - We keep the "
+"recipe in a safe, just to be careful!</li>\n"
+"                                <li>The Box – 3 layers box designed to keep "
+"our burgers impeccable until they reach you.\n"
+"                                </li>\n"
+"                                <li>Frikadell Eateries are specially "
+"designed to make you feel good and relax.</li>"
+msgstr ""
+"<li>سفارش آسان – با استفاده از اپلیکیشن نصب شده روی تلفن هوشمند یا تبلت، در "
+"شعب ما به راحتی غذا سفارش دهید.</li>\n"
+"                                <li>کاملا سفارشی - تمام اجزای همبرگر را "
+"خودتان انتخاب می کنید و ما آن را درست می کنیم!</li>\n"
+"                                <li>گوشت انتخاب شده با دقت - هر روز با طیف "
+"وسیعی از ادویه ها آماده می شود و طعم بی نظیری دارد.</li>\n"
+"                                <li>نان تازه و کاملا پخته شده - ما هر کاری "
+"لازم باشد انجام می دهیم تا همه چیز کاملا درست و دقیق پیش برود.</li>\n"
+"                                <li>سس اختصاصی فریکادل - طرز تهیه آن کاملا "
+"محرمانه است و ما از آن محافظت می کنیم؛ مراقب باشید!</li>\n"
+"                                <li>بسته بندی – جعبه های سه لایه ما کاملا بی "
+"نقص طراحی شده اند تا برگر بدون هیچ ایرادی به دست شما  برسد.</li>\n"
+"                                <li>طراحی تمام شعب فریکادل، به گونه ای انجام "
+"شده که شما در آن ها کاملا احساس راحتی داشته باشید.</li>"
+
+#: public/urls.py:9
+msgid "^$"
+msgstr ""
+
+#: public/urls.py:10
+msgid "^home/$"
+msgstr "^خانه/$"
+
+#: public/urls.py:11
+msgid "^locations/$"
+msgstr "^شعبه‌ها/$"
+
+#: public/urls.py:12
+msgid "^menu/$"
+msgstr "^منو/$"
+
+#: public/urls.py:13
+msgid "^contact-us/$"
+msgstr "^ارتباط-با-ما/$"
+
+#: public/urls.py:14
+msgid "^frikadell-freaks/$"
+msgstr "^دوست‌داران-فریکادل/$"
+
+#: public/urls.py:15
+msgid "^join-the-team/$"
+msgstr "^به-تیم-ما-بپیوندید/$"
+
+#: public/urls.py:16
+msgid "^privacy-policy/$"
+msgstr "^حریم-خصوصی/$"
+
+#: public/urls.py:17
+msgid "^franchise/$"
+msgstr "^حق-امتیاز/$"
+
+#: public/urls.py:18
+msgid "^press/$"
+msgstr "^مطبوعات/$"
+
+#: public/urls.py:19
+msgid "^our-story/$"
+msgstr "^داستان-ما/$"
+
+#: public/urls.py:20
+msgid "^do-you-speak-frikadell/$"
+msgstr "^زبان فریکادلی/$"
+
+#: public/views.py:27
+msgid "Ground Floor, ASP Tower, Sheykh Bahae’e St, Tehran, Iran."
+msgstr "ایران، تهران، خیابان شیخ بهایی، برج آ.اس.پ، طبقه همکف"
+
+#: public/views.py:28
+msgid "+982188608738"
+msgstr "+982188608738"
+
+#: public/views.py:29
+msgid "Open everyday From 11:00 to 23:30"
+msgstr "همه روزه از ساعت 11 تا 23:30"
+
+msgid "Eatery, Take-Away & Delivery"
+msgstr "غذاخوری، بیرون‌بر و ارسال با پیک"
+
+#: public/views.py:34
+msgid "Zaafaranie, Tehran, Iran."
+msgstr "تهران، ایران، زعفرانیه"
+
+#: public/views.py:35
+msgid "Coming soon"
+msgstr "به زودی"
+
+msgid "Take-Away & Delivery"
+msgstr "به صورت بیرون بر و ارسال با پیک"

@@ -1,0 +1,145 @@
+{% extends "public/base.html" %}
+{% load i18n %}
+
+{% block title %}{% trans "privacy policy"|title %}{% endblock %}
+
+{% block content %}
+    <main>
+        <section class="defalt-page ordered">
+            <div class="container-fluid">
+                {% blocktrans %}<h5>We respect your Privacy</h5>
+                <p>At Frikadell, the protection of your privacy in the processing of your personal data is an important
+                    concern to which we pay special attention during our business processes. Personal data collected
+                    during
+                    visits to our website are processed by us confidentially and in accordance with the law. Data
+                    protection
+                    and Information security are part of our company policy. Our website may include links to other
+                    websites
+                    which are not covered by this privacy statement.</p>
+                <h5>Collection and Processing of Personal Data</h5>
+                <p>When you visit our website our web analytics software automatically records the name of your internet
+                    service provider, the website from which you visit us, the pages you actually visit and the date and
+                    length of your visit. Our website may use cookies and active components (e.g. JavaScript) to follow
+                    the
+                    preferences of our visitors and optimize our website accordingly. You can reset your browser either
+                    to
+                    notify you when you receive a cookie, or to refuse to accept cookies. Please note that certain areas
+                    of
+                    most sites may not function properly if you reject a cookie. Additional personal data is only stored
+                    if
+                    volunteered by you, for example in context of a registration, a survey, a contest or in execution of
+                    a
+                    contract.</p>
+                <h5>Use and Disclosure of Personal Data and Purpose Specification</h5>
+                <p>We may use your personal data for the sole purpose of technical administration of the website,
+                    customer
+                    administration, surveys and marketing, only to the extent necessary in each specific case. Your
+                    personal
+                    data will not be disclosed to third parties outside Frikadell without your consent.</p>
+                <h5>Security</h5>
+                <p>We use security measures in order to protect the data we have under our control against manipulation,
+                    loss, destruction, access by unauthorized persons or against unauthorized disclosure. Our security
+                    procedures are continually enhanced as new technology becomes available.</p>
+                <h5>Freedom of choice</h5>
+                <p>We would like to use your data to inform you about our news, promotions, services and request your
+                    opinion, where applicable. Naturally your participation in such campaigns is voluntary. Should you
+                    not
+                    consent, you can inform us at any time, so that we can prohibit the use of your data accordingly.
+                    For
+                    further information we refer you to the local website-services.</p>
+                <h5>Contact</h5>
+                <p>For information, helpful suggestions and complaints regarding the processing of your personal data
+                    you
+                    can refer to info@frikadell.com. We strive to maintain data that is up-to-date and accurate. Should
+                    there be data relating to you that is incorrect we will correct that information at your
+                    request.</p>{% endblocktrans %}
+            </div>
+        </section>
+    </main>
+{% endblock %}
+
+{% block scripts %}
+    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js"></script>
+    <script type="text/javascript">
+        // When the window has finished loading create our google map below
+        google.maps.event.addDomListener(window, 'load', init);
+
+        function init() {
+            // Basic options for a simple Google Map
+            // For more options see: https://developers.google.com/maps/documentation/javascript/reference#MapOptions
+            var mapOptions = {
+                // How zoomed in you want the map to start at (always required)
+                zoom: 11,
+
+                // The latitude and longitude to center the map (always required)
+                center: new google.maps.LatLng(40.6700, -73.9400), // New York
+
+                // How you would like to style the map.
+                // This is where you would paste any style found on Snazzy Maps.
+                styles: [{
+                    "featureType": "administrative.land_parcel",
+                    "elementType": "all",
+                    "stylers": [{"visibility": "off"}]
+                }, {
+                    "featureType": "landscape.man_made",
+                    "elementType": "all",
+                    "stylers": [{"visibility": "off"}]
+                }, {
+                    "featureType": "poi",
+                    "elementType": "labels",
+                    "stylers": [{"visibility": "off"}]
+                }, {
+                    "featureType": "road",
+                    "elementType": "labels",
+                    "stylers": [{"visibility": "simplified"}, {"lightness": 20}]
+                }, {
+                    "featureType": "road.highway",
+                    "elementType": "geometry",
+                    "stylers": [{"hue": "#f49935"}]
+                }, {
+                    "featureType": "road.highway",
+                    "elementType": "labels",
+                    "stylers": [{"visibility": "simplified"}]
+                }, {
+                    "featureType": "road.arterial",
+                    "elementType": "geometry",
+                    "stylers": [{"hue": "#fad959"}]
+                }, {
+                    "featureType": "road.arterial",
+                    "elementType": "labels",
+                    "stylers": [{"visibility": "off"}]
+                }, {
+                    "featureType": "road.local",
+                    "elementType": "geometry",
+                    "stylers": [{"visibility": "simplified"}]
+                }, {
+                    "featureType": "road.local",
+                    "elementType": "labels",
+                    "stylers": [{"visibility": "simplified"}]
+                }, {
+                    "featureType": "transit",
+                    "elementType": "all",
+                    "stylers": [{"visibility": "off"}]
+                }, {
+                    "featureType": "water",
+                    "elementType": "all",
+                    "stylers": [{"hue": "#a1cdfc"}, {"saturation": 30}, {"lightness": 49}]
+                }]
+            };
+
+            // Get the HTML DOM element that will contain your map
+            // We are using a div with id="map" seen below in the <body>
+            var mapElement = document.getElementById('map');
+
+            // Create the Google Map using our element and options defined above
+            var map = new google.maps.Map(mapElement, mapOptions);
+
+            // Let's also add a marker while we're at it
+            var marker = new google.maps.Marker({
+                position: new google.maps.LatLng(52.527035, -13.396747),
+                map: map,
+                title: 'Snazzy!'
+            });
+        }
+    </script>
+{% endblock %}

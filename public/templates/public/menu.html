@@ -1,0 +1,197 @@
+{% extends 'public/base.html' %}
+{% load i18n %}
+{% load static %}
+
+{% block title %}{% trans "menu"|title %}{% endblock %}
+
+{% block content %}
+    <main>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="cover" id="menu">
+                    <h2>Menu</h2>
+                </div>
+                <section class="box menu-box" id="menu-list">
+                    <div class="container">
+                    <div class="row">
+                        <div class="">
+                            <div class="col-xs-12 col-sm-3">
+                                <div class="box-size">
+                                    <img src="{% static "public/img/icon-burger.svg" %}">
+                                    <h3>{% trans "Bun" %}</h3>
+                                    <p>{% blocktrans %}Our freshly baked breads are handmade and finished on the grill{% endblocktrans %}</p>
+
+
+                                    <h4 class="see-more--menu">See all</h4>
+                                    <ul style="display:none">
+                                        {% blocktrans %}<li>White Bun</li>
+                                        <li>Ciabatta</li>
+                                        <li>Whole Grain Bun</li>
+                                        <li>Lettuce bun</li>
+                                        {% endblocktrans %}
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="col-xs-12 col-sm-3">
+                                <div class="box-size">
+                                    <img src="{% static "public/img/icon-meat.svg" %}">
+                                    <h3>{% trans "Meat" %}</h3>
+                                    <p>{% blocktrans %}
+                                        We use the best ingredients to handcraft the most delicious burgers{% endblocktrans %}
+                                    </p>
+
+                                    <h4 class="see-more--menu">See all</h4>
+                                    <ul style="display:none">
+                                        {% blocktrans %}
+                                        <li>Beef</li>
+                                        <li>Chicken Burger</li>
+                                        <li>Chicken Breast</li>
+                                        {% endblocktrans %}
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="col-xs-12 col-sm-3">
+                                <div class="box-size">
+                                    <img src="{% static "public/img/icon-toppings.svg" %}">
+                                    <h3>{% trans "Toppings" %}</h3>
+                                    <p>{% blocktrans %}From the market to our kitchen, our toppings are prepared to keep their real taste{% endblocktrans %}</p>
+                                 <h4 class="see-more--menu">See all</h4>
+                                    <ul style="display:none">   
+                                    <li>
+                                        {% trans "Tomato" %} - 
+                                        {% trans "onions"|title %} -
+                                        {% trans "Lettuce" %}
+                                    </li>
+                                    <li>
+                                        {% trans "pickled jalapenos"|title %} - 
+                                        {% trans "Basil" %}
+                                    </li>
+                                    <li>
+                                        {% trans "Mushrooms" %} -
+                                        {% trans "caramelized onions"|title %}
+                                    </li>
+                                </ul>
+                                </div>
+                            </div>
+                            <div class="col-xs-12 col-sm-3">
+                                <div class="box-size">
+                                    <img src="{% static "public/img/icon-cheese.svg" %}">
+                                    <h3>{% trans "cheese"|title %}</h3>
+                                    <p>A cheese burger without a cheese! Are you kidding ?</p>
+                                    <h4 class="see-more--menu">See all</h4>
+                                    <ul style="display:none">
+                                        {% blocktrans %}
+                                        <li>Gouda</li>
+                                        <li>Cheddar</li>
+                                        <li>Parmesan</li>
+                                        <li>Blue Cheese</li>{% endblocktrans %}
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="row">
+                            <div class="col-xs-12 col-sm-3">
+                                <div class="">
+                                    <img src="{% static "public/img/icon-fries.svg" %}">
+                                    <h3>{% trans "fries"|title %}</h3>
+                                    <p>{% blocktrans %} Crunchy on the outside, fluffy on the inside, spiced up and the perfect side{% endblocktrans %}</p>
+                                    <h4 class="see-more--menu">See all</h4>
+                                    <ul style="display:none">
+                                        {% blocktrans %}
+                                        <li>Potato Wedges</li>
+                                        <li>Fries</li>
+                                        {% endblocktrans %}
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="col-xs-12 col-sm-3">
+                                <div class="">
+                                    <img src="{% static "public/img/icon-sauce.svg" %}">
+                                    <h3>{% trans "sauce"|title %}</h3>
+                                    <p>{% blocktrans %}Made with wholesome secret ingredients, our sauces are super tasty{% endblocktrans %}</p>
+                                    <h4 class="see-more--menu">See all</h4>
+                                    <ul style="display:none">
+                                        {% blocktrans %}
+                                        <li>Frikadell – Our secret recipe! You’ll be addicted</li>
+                                        <li>Homemade Ketchup – Because there is simply nothing better</li>
+                                        <li>Chilli – Bring some more spice
+                                        </li>
+                                        <li>Cheese – Will never taste the same</li>
+                                        <li>Barbecue – Make it smoky
+                                        </li>{% endblocktrans %}
+                                    </ul>
+                                </div>
+                            </div>
+
+                            <div class="col-xs-12 col-sm-3">
+                                <div class="">
+                                    <img src="{% static "public/img/icon-salad.svg" %}">
+                                    <h3>{% blocktrans %}Salad{% endblocktrans %}</h3>
+                                    <p>{% blocktrans %}Who said we only do burgers?  Some alternative choices here{% endblocktrans %}</p>
+                                    <h4 class="see-more--menu">See all</h4>
+                                    <ul style="display:none">
+                                        {% blocktrans %}
+                                        <li>Chicken Caesar Salad</li>
+                                        {% endblocktrans %}
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="col-xs-12 col-sm-3">
+                                <div class="">
+                                    <img src="{% static "public/img/icon-drink.svg" %}">
+                                    <h3>{% trans "Drinks" %}</h3>
+                                    <p>{% blocktrans %}A large selection of cold beverages{% endblocktrans %}</p>
+                                    <h4 class="see-more--menu">See all</h4>
+                                    <ul style="display:none">
+                                        {% blocktrans %}
+                                        <li>Coca Cola<li>
+                                        <li>Sprite</li>
+                                        <li>Fanta</li>
+                                        <li>Coca Cola Light</li>
+                                        <li>Coca Cola Zero</li>
+                                        <li>Apple Juice</li>
+                                        <li>Orange Juice</li>
+                                        <li>Non-alcoholic Classic Beer &amp; Non-alcoholic Lemon Beer</li>
+                                         <li>Still Water and Sparkling Water</li>
+                                         {% endblocktrans %}
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </div>
+        <section>
+            <div class="container">
+
+                <div class="row">
+                    
+                    <div class="col-sm-6">
+                        <h3>#burgertogether</h3>
+                        <p>{% blocktrans %}Frikadell is created by our people in line with our values; humble, wholesome, honest and direct.{% endblocktrans %}
+                        </p>
+                        <p>{% blocktrans %}Everything is made to order from scratch – with the same care as home cooking: we grind our own meat, hand pick the tomatoes, chop the onions and craft our sauces.{% endblocktrans %}</p>
+                    </div>
+                    <div class="col-sm-6">
+                      <img src="{% static "public/img/fresh_food.jpg" %}">
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+{% endblock %}
+
+{% block scripts %}
+    <script type="text/javascript">
+        $("#sd").click(function () {
+            $('html, body').animate({
+                scrollTop: $("#show").offset().top
+            }, 500);
+        });
+    </script>
+{% endblock %}

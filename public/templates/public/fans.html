@@ -1,0 +1,56 @@
+{% extends "public/base.html" %}
+{% load i18n %}
+{% load static %}
+
+{% block title %}{% trans "frikadell freaks"|title %}{% endblock %}
+
+{% block content %}
+    <main>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="box cover wall-cover s4">
+                    <div class="main-center">
+                        <h2 class="text-shadow">{% trans "frikadell freaks"|title %}</h2>
+                    </div>
+                </div>
+            </div>
+        </div>    
+
+        <section>
+            <div class="container">
+                <div class="row">
+                    <div class="row">
+                        
+                    <div class="col-sm-6">
+                        <h1>Are you a Frikadell fan?</h1>
+                        <p>{% blocktrans %}Our passion for great burgers is limitless, and we count on you to enrich our story. Want to be featured as a Frikadell Freak on our Instagram page? Submit a photo today and become a Frikadell Freak.{% endblocktrans %}</p>
+                        <a href="mailto:submit-photos@frikadell.com" title="" class="secondary-button">{% blocktrans %}SUBMIT PHOTO{% endblocktrans %}</a>
+
+                    </div>
+                    <div class="col-sm-6">
+                        <h3>Frikadell facts:</h3>
+                        <div class="row">
+                            <ul class="col-sm-9">
+                                <li>{% blocktrans %}There are 10 different herbs and spices in our beef and chicken patty{% endblocktrans %}</li>
+                                <br>
+                                <li>{% blocktrans %}Our buns are put on a grill for 20 seconds before serving for better taste {% endblocktrans %}</li>
+                                <br>
+                                <li>{% blocktrans %}Choose one of the 1,680 combinations to build your own signature burger.{% endblocktrans %}</li>
+                            </ul>    
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+{% endblock %}
+
+{% block scripts %}
+    <script type="text/javascript">
+        $("#sd").click(function () {
+            $('html, body').animate({
+                scrollTop: $("#show").offset().top
+            }, 500);
+        });
+    </script>
+{% endblock %}
