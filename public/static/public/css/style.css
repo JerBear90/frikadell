@@ -265,17 +265,31 @@ iframe{
     background-position: 0px center;
     background-repeat: no-repeat;
 }
+
+.breakdown-burger{
+    padding: 100px 0px 50px 0px;
+}
+
+.line-indicator{
+    border: 1px solid #000;
+    position: absolute;
+    top: 50%;
+    width: 250px;
+    right: 50%;
+    z-index: -1;
+}
+
 .friadell-phone{
     background-image: url(../img/phone-background.png);
-    background-size: 45%;
-    background-position: center right;
+    background-size: 41%;
+    background-position: 93% top;
     background-repeat: no-repeat;
 }
 .frik-team{
-    background-image: url(../img/team.png);
+    background-image: url(../img/team.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    position: relative;
+    background-position: center right;
 }
 
 .phone-background{
@@ -409,6 +423,13 @@ iframe{
 
 #menu{
     background-image: url(../img/menu_hero.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+#menu-food{
+    background-image: url(../img/menu-lower.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -1365,7 +1386,14 @@ input:focus, textarea:focus {
     margin: 15px 0 0 0;
     color: #101820;
     transition: .5s all;
+    cursor: pointer;
 }
+
+.button-sm{
+    font-size: 16px;
+    padding: 10px 20px;
+}
+
 
 .primary-button, #learn-button {
     border: 2px solid #FFF;  

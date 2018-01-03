@@ -1,7 +1,7 @@
 jQuery(document).ready(function ($) {
     function toggleDocs(event) {
 
-	    if (event.target && event.target.className == 'see-more--menu') {
+	    if (event.target && event.target.className == 'see-more--menu secondary-button button-sm') {
 
 	        var next = event.target.nextElementSibling;
 

@@ -59,5 +59,31 @@
                 </div>
             </div>
         </section>
+        <!-- Video -->
+        <section class="introduction background-white">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12 col-md-6">
+                            <div class="row">  
+                                <div class="paragraph">
+                                    <h1>{% blocktrans %}How it works {% endblocktrans %}</h1>
+                                    <p>{% blocktrans %}Our ordering system works with the Frikadell App, available in Frikadell locations and on your mobile device!{% endblocktrans %}</p>
+                                    <p>{% blocktrans %}Our ordering system works with the Frikadell App, available in Frikadell locations and on your mobile device!{% endblocktrans %}</p>
+                            </div>
+                        </div>
+                    </div> 
+                    <div class="col-sm-12 col-md-5 pull-right">
+                        <div class="row">
+                            <div class="image-box">
+                                 <video id="homevideo" width="100%" src="{% static 'public/video/english-video-frikadell.mp4' %}" loop muted controls preload>
+                                    <source src="{% static 'public/video/english-video-frikadell.mp4' %}" type="video/mp4">
+                                    Your browser does not support HTML5 video.
+                                </video>
+                             </div>
+                        </div>
+                    </div>              
+                </div>
+            </div>
+        </section>
     </main>
 {% endblock %}
