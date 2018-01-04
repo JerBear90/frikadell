@@ -990,6 +990,7 @@ input:focus, textarea:focus {
 }
 
 .cd-nav-trigger {
+    display: none;
     position: relative;
     height: 30px;
     width: 30px;
@@ -1568,6 +1569,9 @@ input:focus, textarea:focus {
 }
 
 @media (max-width: 900px) {
+    .cd-nav-trigger{
+        display: block;
+    }
     #quick-navbar {
         display: none;
     }
