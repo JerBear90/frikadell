@@ -229,6 +229,9 @@ iframe{
 .black-text{
     color: #000 !important;
 }
+.pt-2{
+    padding-top: 2em !important;
+}
 .mt-1{
     margin-top:1em !important;
 }
@@ -256,8 +259,7 @@ iframe{
     background-color: #f5f3f6;
 }
 .box--white{
-    background-color: hsla(0,0%,100%, .9);
-    padding: 20px 40px 40px;
+    background-color: hsla(0,0%,100%, .5);
 }
 
 .breakdown-burger{
@@ -275,8 +277,8 @@ iframe{
 
 .friadell-phone{
     background-image: url(../img/phone-background.png);
-    background-size: 41%;
-    background-position: 93% top;
+    background-size: 35%;
+    background-position: 20% top;
     background-repeat: no-repeat;
 }
 .frik-team{
@@ -284,6 +286,28 @@ iframe{
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center right;
+}
+
+.map{
+    background-image: url(../img/map.png);
+    background-repeat: no-repeat;
+    background-size: 62%;
+    background-position: bottom right;
+    height: 500px;
+}
+
+.contact-background{
+    background-image: url(../img/contact-background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;   
+}
+
+.pattern-corner{
+    background-image: url(../img/pattern-corner.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: left center;   
 }
 
 .phone-background{
@@ -1754,4 +1778,10 @@ input[type=text] {
     margin-right: 0;
     margin-top: 0.2rem;
   }
+}
+
+
+/*bxslider*/
+.bx-wrapper{
+    border: 0px solid #fff !important;
 }

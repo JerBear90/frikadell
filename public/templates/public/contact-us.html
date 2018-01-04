@@ -15,6 +15,9 @@
                 </div>
             </div>
         </div>   
+        <div class="contact-background">
+            
+        
         <section>
             <div class="container-fluid">
                 <div class="row">
@@ -23,8 +26,6 @@
                           <input type="radio" name="tabs" id="tabone" checked="checked">
                           <label for="tabone"><h3>Feedback</h3></label>
                           <div class="tab mt-1">
-                            <!-- <h3>{% trans "Feedback" %}</h3> -->
-                            <!-- <p class="text-center">{% blocktrans %}Thank you for reaching out to us! We look forward to getting back to you. In order to direct you to the most appropriate person, please select from the dropdown menu below.{% endblocktrans %}</p> -->
                             <form action="{% url 'public:contact' %}?feedback" method="post" class="mt-2">
                                 {% csrf_token %}
                                 <div class="row">
@@ -41,7 +42,8 @@
                           <label for="tabtwo"><h3>Franchise</h3></label>
                           <div class="tab">
                             <!-- <h2>{% trans "Franchise" %}</h2> -->
-                            <p class="mt-1">{% blocktrans %}We will shortly be offering franchise opportunities. Join us and be part of the Frikadell family. If you are interested in a franchise opportunity please complete the following form.{% endblocktrans %}</p>
+                            <p class="mt-1">
+                            {% blocktrans %}We will shortly be offering franchise opportunities. Join us and be part of the Frikadell family. If you are interested in a franchise opportunity please complete the following form.{% endblocktrans %}</p>
                             <form method="post" action="{% url 'public:contact' %}?franchise" class="mt-3">
                                 {% csrf_token %}
                                 <div class="row">
@@ -74,20 +76,21 @@
                 </div>
             </div>
         </section>
-    </main>
+    </div>
+</main>
 {% endblock %}
 
 {% block scripts %}
-    <script type="text/javascript">
-        $(document).ready(function () {
-            $('.contact-select').niceSelect();
-        });
+<script type="text/javascript">
+    $(document).ready(function () {
+        $('.contact-select').niceSelect();
+    });
 
-        function ToggleVisibleSection() {
-            $(".show-hide-section").hide();
-            var value = $(".contact-select option:selected").val();
-            $(".show-hide-section[data-selector='" + value + "']").show();
-        }
+    function ToggleVisibleSection() {
+        $(".show-hide-section").hide();
+        var value = $(".contact-select option:selected").val();
+        $(".show-hide-section[data-selector='" + value + "']").show();
+    }
 
         function getUrlVars() {
             var vars = [], hash;

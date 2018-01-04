@@ -166,27 +166,36 @@
                 </section>
             </div>
         </div>
-        <div class="cover" id="menu-food"></div>
-        <!-- <section>
-            <div class="container">
-                <div class="row">
-                    <div class="col-sm-6">
-                        <h3>#burgertogether</h3>
-                        <p>{% blocktrans %}Frikadell is created by our people in line with our values; humble, wholesome, honest and direct.{% endblocktrans %}
-                        </p>
-                        <p>{% blocktrans %}Everything is made to order from scratch – with the same care as home cooking: we grind our own meat, hand pick the tomatoes, chop the onions and craft our sauces.{% endblocktrans %}</p>
-                    </div>
-                    <div class="col-sm-6">
-                      <img src="{% static "public/img/fresh_food.jpg" %}">
-                    </div>
-                </div>
-            </div>
-        </section> -->
+        <div class="slider">
+            <div><img src="{% static "public/img/slider/1.jpg" %}"></div>
+            <div><img src="{% static "public/img/slider/2.jpg" %}"></div>
+            <div><img src="{% static "public/img/slider/3.jpg" %}"></div>
+            <div><img src="{% static "public/img/slider/4.jpg" %}"></div>
+            <div><img src="{% static "public/img/slider/5.jpg" %}"></div>
+            <div><img src="{% static "public/img/slider/6.jpg" %}"></div>
+            <div><img src="{% static "public/img/slider/7.jpg" %}"></div>
+            <div><img src="{% static "public/img/slider/8.jpg" %}"></div>
+        </div>
     </main>
 {% endblock %}
 
 {% block scripts %}
     <script type="text/javascript">
+        $(document).ready(function(){
+          $('.slider').bxSlider({
+            minSlides: 1,
+            maxSlides: 4,
+            slideWidth: 450,
+            slideMargin: 0,
+            // ticker: true,
+            speed: 3000,
+            autoControls: true,
+            pager: true,
+            controls: true,
+            keyboardEnabled: true,
+            autoHover: true
+          });
+        });
         $("#sd").click(function () {
             $('html, body').animate({
                 scrollTop: $("#show").offset().top

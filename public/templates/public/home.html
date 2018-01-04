@@ -38,7 +38,7 @@
                 </div>
             </div>
         </section>
-        <section>
+        <section class="pt-2">
             <div class="container-fluid">
                 <div class="row">
                     <div class="col-sm-7 padding-none" style="z-index: 10">
@@ -77,26 +77,10 @@
             </div>
         </section>
         
-        <!-- Download App -->
-        <section class="introduction friadell-phone background-gray">
-            <div class="container">
-                <div class="row">
-                    <div class="col-sm-6">
-                            <div class="row">  
-                                <div class="paragraph">
-                                    <h1>{% blocktrans %}Let your fingers do the talking! {% endblocktrans %}</h1>  
-                                    <p>{% blocktrans %}Our ordering system works with the Frikadell App, available in Frikadell locations and on your mobile device!{% endblocktrans %}</p>
-                                    <a href="https://play.google.com/store/apps/details?id=io.noxel.customer" class="secondary-button">{% blocktrans %}Android{% endblocktrans %}</a>
-                                    <a href="{% url "public:story" %}" class="secondary-button">{% blocktrans %}iOS{% endblocktrans %}</a>
-                            </div>
-                        </div>
-                    </div> 
-                </div>
-            </div>
-        </section>
+        
 
         <!-- Frikadell-Team -->
-        <section class="introduction frik-team">
+        <section class="introduction map">
             <div class="container">
                 <div class="row">
                     <div class="col-sm-12 col-md-6">
@@ -107,7 +91,23 @@
                                 <a href="{% url "public:contact" %}" class="tertiary-button">{% blocktrans %}Franchise{% endblocktrans %}</a>
                         </div>
                     </div>              
-                   
+                </div>
+            </div>
+        </section>
+        <!-- Download App -->
+        <section class="introduction friadell-phone">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-6 pull-right">
+                            <div class="row">  
+                                <div class="paragraph">
+                                    <h1>{% blocktrans %}Let your fingers do the talking! {% endblocktrans %}</h1>  
+                                    <p>{% blocktrans %}Our ordering system works with the Frikadell App, available in Frikadell locations and on your mobile device!{% endblocktrans %}</p>
+                                    <a href="https://play.google.com/store/apps/details?id=io.noxel.customer" class="secondary-button">{% blocktrans %}Android{% endblocktrans %}</a>
+                                    <a href="{% url "public:story" %}" class="secondary-button">{% blocktrans %}iOS{% endblocktrans %}</a>
+                            </div>
+                        </div>
+                    </div> 
                 </div>
             </div>
         </section>
