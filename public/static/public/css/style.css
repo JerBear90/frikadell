@@ -52,7 +52,7 @@ img{
 }
 
 section {
-    padding: 65px 0px 40px 0px;
+    padding: 65px 0px;
     position: relative;
     width: 100%;
     height: auto;
@@ -247,10 +247,13 @@ iframe{
 }
 
 .background-yellow{
-    background: #ffd109; 
+    background-color: #ffd109; 
 }
 .background-white{
-    background: #ffffff; 
+    background-color: #ffffff; 
+}
+.background-gray{
+    background-color: #f5f3f6;
 }
 .box--white{
     background-color: hsla(0,0%,100%, .9);
@@ -1709,6 +1712,14 @@ input[type=text] {
 }
 
 /*Contact-us tabs*/
+#contact-hero{
+    background-image: url(../img/contact-hero.jpg);
+    background-position: bottom center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+
+}
+
 .tabs {
     display: flex;
     flex-wrap: wrap;
@@ -1720,9 +1731,8 @@ input[type=text] {
     padding: 1rem 2rem;
     margin-right: 0.2rem;
     cursor: pointer;
-    /*background: #ffd100;*/
     transition: background ease 0.2s;
-    /*width: 33%;*/
+    width: 33%;
 }
 .tabs .tab {
   order: 99;

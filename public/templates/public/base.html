@@ -65,8 +65,9 @@
             href="{% if LANGUAGE_CODE == 'fa' %}https://www.instagram.com/frikadelliran/{% else %}https://www.instagram.com/frikadellgroup/{% endif %}"
             title="{% trans "instagram"|title %}"><i
             class="fa fa-instagram"></i></a></div>
-    <div id="privacy-policy"><a
-            href="{% url "public:privacy-policy" %}">{% trans "privacy policy"|upper %}</a>
+    <div id="privacy-policy">
+        <a href="{% url "public:careers" %}">{% trans "careers"|upper %}</a> |
+        <a href="{% url "public:privacy-policy" %}">{% trans "privacy policy"|upper %}</a>
     </div>
 </footer>
 <!-- <nav class="cd-nav-container" id="cd-nav">
