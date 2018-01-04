@@ -260,18 +260,6 @@ iframe{
     padding: 20px 40px 40px;
 }
 
-.image-box{
-    /*height: 400px;*/
-    /*padding: 20px 0px;*/
-}
-
-.our-story{
-    background-image: url(../img/our_story_left_img.png);
-    background-size: 400px;
-    background-position: 0px center;
-    background-repeat: no-repeat;
-}
-
 .breakdown-burger{
     padding: 100px 0px 50px 0px;
 }
