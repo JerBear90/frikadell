@@ -262,10 +262,6 @@ iframe{
     background-color: hsla(0,0%,100%, .5);
 }
 
-.breakdown-burger{
-    padding: 100px 0px 50px 0px;
-}
-
 .line-indicator{
     border: 1px solid #000;
     position: absolute;
@@ -1593,6 +1589,27 @@ input:focus, textarea:focus {
 }
 
 @media (max-width: 900px) {
+    section {
+        padding: 65px 40px;
+    }
+
+    .map {
+        background-image: url(../img/map.png);
+        background-size: cover;
+        background-position: center;
+        height: 500px;
+    }
+
+    /*Hide Bgs on phone*/
+    .friadell-phone{
+        background-image: none;
+    }
+
+
+    .breakdown-burger, .line-indicator, .firkadell-phone {
+        display: none;
+        background-image: none;
+    }
     .cd-nav-trigger{
         display: block;
     }
@@ -1732,7 +1749,7 @@ input[type=text] {
     background-image: url(../img/contact-hero.jpg);
     background-position: bottom center;
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: cover;
 
 }
 
